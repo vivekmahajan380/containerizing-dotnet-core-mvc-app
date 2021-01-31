@@ -10,9 +10,13 @@
    docker build -t [repository-name]/[image-name]:[tag-name]
    
    e.g: Suppose 
+   
          [repository-name] : XYZ
+   
          [image-name]   :  mvc-app
+         
          [tag-name]     :  1.0
         
    then command to create docker image will be 
+   
    docker build -t XYZ/mvc-app:1.0 .      [Please note dot in the end of the command which denotes the path of Dockerfile in same location.] 
