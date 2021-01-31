@@ -28,7 +28,7 @@
  
       docker push [repository-name]/[image-name]:[tag-name]
    
-   e.g: for the image created in step 4, command to push the image to the repository would be
+      e.g: for the image created in step 4, command to push the image to the repository would be
    
       docker push XYZ/mvc-app:1.0
    
@@ -36,7 +36,7 @@
   
       docker run -d -p 8080:80 [repository-name]/[image-name]:[tag-name]
    
-   e.g: for the image created in step 4, command to run the container would be
+      e.g: for the image created in step 4, command to run the container would be
    
       docker run -d -p 8080:80 XYZ/mvc-app:1.0
  
@@ -58,7 +58,7 @@
    
       docker rm [initial 3-4 characters of container unique id]
       
-      after this step 7 would not list this container as this would be deleted.
+      After this step, command on step 7 would not list this container as this would be deleted.
       
     11. To remove the image run below command
       
