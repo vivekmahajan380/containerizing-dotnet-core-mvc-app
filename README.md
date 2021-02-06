@@ -1,8 +1,7 @@
 # containerizing-dotnet-core-mvc-app
-1. Install Docker Desktop as per the OS from the link
-   https://docs.docker.com/get-docker/
+1. Install Docker as per the OS from the link   https://docs.docker.com/get-docker/
 
-2. Once Docker is installed, open the command prompt with "containerizing-dotnet-core-mvc-app" as path
+2. Once Docker is installed, download the project and open the command prompt from folder "containerizing-dotnet-core-mvc-app" 
 
 3. Run below command to create docker image
 
@@ -56,7 +55,7 @@
       
       After this step, command on step 7 would not list this container as this would be deleted.
       
- 10. To remove the image run below command
+  10. To remove the image run below command
       
       `docker rmi [repository-name]/[image-name]:[tag-name]`
      
