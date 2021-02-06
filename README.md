@@ -10,9 +10,9 @@
    
       e.g: Suppose 
 
-            [repository-name] : XYZ
-            [image-name]   :  mvc-app
-            [tag-name]     :  1.0
+            [repository-name]    :  XYZ
+            [image-name]         :  mvc-app
+            [tag-name]           :  1.0
         
       then command to create docker image will be 
    
@@ -68,4 +68,4 @@
       
       - Image of this application can also be fetched from docker hub by running below command 
       
-            `docker pull vivekmahajan380/mvc-app:1.0`
+            docker pull vivekmahajan380/mvc-app:1.0
