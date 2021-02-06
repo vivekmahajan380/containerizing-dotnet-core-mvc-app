@@ -50,13 +50,13 @@
    
       `docker stop [initial 3-4 characters of container unique id]`
       
- 10. To remove the container run the below command
+ 9. To remove the container run the below command
    
       `docker rm [initial 3-4 characters of container unique id]`
       
       After this step, command on step 7 would not list this container as this would be deleted.
       
- 11. To remove the image run below command
+ 10. To remove the image run below command
       
       `docker rmi [repository-name]/[image-name]:[tag-name]`
      
