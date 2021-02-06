@@ -11,9 +11,7 @@
       e.g: Suppose 
 
             [repository-name] : XYZ
-
             [image-name]   :  mvc-app
-
             [tag-name]     :  1.0
         
       then command to create docker image will be 
@@ -63,4 +61,6 @@
       `docker rmi [repository-name]/[image-name]:[tag-name]`
      
      
-[NOTE] : Dockerfile in the project is very importatnt as that is used to cerate the image of the application and corresponding dependencies. 
+`[NOTE]` :  - Dockerfile in the project is very importatnt as that is used to create the image of the application and corresponding dependencies. 
+            - Image of this application can also be get by running below command 
+               `docker pull vivekmahajan380/mvc-app:1.0`
