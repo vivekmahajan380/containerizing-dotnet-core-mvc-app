@@ -61,6 +61,10 @@
       `docker rmi [repository-name]/[image-name]:[tag-name]`
      
      
-`[NOTE]` :  - Dockerfile in the project is very importatnt as that is used to create the image of the application and corresponding dependencies. 
-            - Image of this application can also be get by running below command 
-               `docker pull vivekmahajan380/mvc-app:1.0`
+### `[NOTE]` :  
+
+      - Dockerfile in the project is very importatnt as that is used to create the image of the application and corresponding dependencies. 
+      
+      - Image of this application can also be fetched by running below command 
+      
+            `docker pull vivekmahajan380/mvc-app:1.0`
