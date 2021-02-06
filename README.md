@@ -63,8 +63,9 @@
      
 ### `[NOTE]` :  
 
-      - Dockerfile in the project is very importatnt as that is used to create the image of the application and corresponding dependencies. 
+      - Dockerfile in the project is very importatnt as that is used to create the image of the application 
+        and corresponding dependencies. 
       
-      - Image of this application can also be fetched by running below command 
+      - Image of this application can also be fetched from docker hub by running below command 
       
             `docker pull vivekmahajan380/mvc-app:1.0`
