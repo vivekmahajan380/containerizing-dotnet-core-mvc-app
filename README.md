@@ -63,4 +63,4 @@
       `docker rmi [repository-name]/[image-name]:[tag-name]`
      
      
-[NOTE:] Dockerfile in the project is very importatnt as that is used to cerate the image of the application and corresponding dependencies. 
+[NOTE] : Dockerfile in the project is very importatnt as that is used to cerate the image of the application and corresponding dependencies. 
